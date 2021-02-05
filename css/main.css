@@ -270,8 +270,7 @@ p {
 }
 
 .card1 {
-  width: 400px;
-
+  width: 100%;
   height: 400px;
   display: block;
   float: left;
@@ -279,7 +278,7 @@ p {
 }
 
 .card2 {
-  width: 400px;
+  width: 100%;
   height: 400px;
   display: block;
   float: left;
@@ -514,10 +513,7 @@ body {
   padding: 10px;
 }
 
-.partnerCont {
-  margin-left: 10%;
-  margin-right: 10%;
-}
+.partnerCont {}
 
 /* footer */
 
@@ -549,3 +545,45 @@ body {
 .footCopywrite {
   text-align: center;
 }
+
+.navi {
+  z-index: 99999;
+}
+
+/* button */
+
+
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.6em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #363636;
+  text-align: center;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+a.button1:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+  a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+.buttonCent {
+  display: flex;
+  justify-content: center;
+}
+
+/*  */

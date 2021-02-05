@@ -10,11 +10,14 @@
   <link href='/css/main.css' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="/js/main.js"></script>
+  <link rel="stylesheet" href="/css/newsCards.css">
 
   <title>Innerva Virtual</title>
 </head>
 
 <body>
+
+
 
   <header class="main_h">
 
@@ -40,15 +43,23 @@
 
   </header>
 
+
+
   <div class="hero">
 
     <span><img src="/img/innervaLogo.png" alt="Innerva Virtual" class="topLogo"></span>
+
+
+    <div class="buttonCent">
+      <a href="/index.html" class="button1">Home</a>
+      <a href="/aboutus.html" class="button1">About Us</a>
+      <a href="/blog.html" class="button1">News</a>
+      <a href="/contactus.html" class="button1">Contact Us</a>
+
+    </div>
     <h2 style="margin-top: 6%">Virtual Reality Software
       for Healthy Aging</h2>
 
-    <div class="mouse">
-      <span></span>
-    </div>
 
   </div>
 
@@ -68,29 +79,49 @@
 
     <h1 class="sec01">Latest</h1>
 
-    <div class="container">
-      <div class="cards" style="border: 1px solid grey; background-image: url(./img/Innerva.jpg); border-radius: 5px; ">
-        <h2 style="color: darkslategrey;">Innerva Virtual: VR Solutions for Wellness</h2>
-        <p style="text-align: center; color: darkslategrey;">Innerva’s mission is to identify gaps in health services in
-          long-term care and
-          address them
-          using technology to provide quality health services for aging adults across the world...</p>
-        <a href="./blog.html" style="background-color: grey; padding: 10px; color: white; border-radius: 5px;">Go To
-          News</a>
+
+
+
+    <div class="card xl">
+
+      <section class="wrapper">
+        <img style="background-image: url(./img/Innerva.jpg)" alt=""></img>
+        <footer class="card-footer">
+          <a href="https://athelpdesk.org/innerva-virtual-vr-solutions-for-wellness/" target="blank">
+            <h6>January 21, 2021</h6>
+            <h4>Innerva Virtual: VR Solutions for Wellness</h4>
+            <p>Innerva’s mission is to identify gaps in health services in
+              long-term care and
+              address them
+              using technology to provide quality health services for aging adults across the world...</p>
+          </a>
+        </footer>
+      </section>
+      <div class="content">
       </div>
 
-
-      <h1 class="sec02" style="border-top: grey 1px solid;">Partners</h1>
-
-
-
     </div>
+    <!-- More news -->
+
+    <div class="buttonCent">
+      <a href="something" class="button1">More News</a>
+    </div>
+
+
+
+
+    <h1 class="sec02" style="border-top: grey 1px solid;">Partners</h1>
+
+
+
+
     <div class="partnerCont">
 
       <img src="/img/partners/cira.png" alt="" class="partnerImg">
       <img src="/img/partners/centreforaging.png" alt="" class="partnerImg">
       <img src="/img/partners/york.jpg" alt="" class="partnerImg">
       <img src="/img/partners/venn.png" alt="" class="partnerImg">
+      <br>
       <img src="/img/partners/nbHealthResearchFoundation.png" alt="" class="partnerImg">
       <img src="/img/partners/planetHatch.png" alt="" class="partnerImg">
       <img src="/img/partners/firstMobile.png" alt="" class="partnerImg">
@@ -105,7 +136,7 @@
         <div class="sitemap">
           <a href="/index.html">Home</a> |
           <a href="/aboutus.html">About Us</a> |
-          <a href="/news.html">News</a> |
+          <a href="/blog.html">News</a> |
           <a href="/contactus.html">Contact Us</a>
         </div>
 
@@ -126,7 +157,7 @@
       </div>
 
     </footer>
-
+  </div>
 </body>
 
 </html>
