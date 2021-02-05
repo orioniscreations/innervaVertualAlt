@@ -143,4 +143,10 @@
   transform: scale3d(1, 1, 1);
 }
 
-.aboutBlurb {}
+.aboutBlurb {
+  padding-bottom: 50px;
+}
+
+footer {
+  border-top: grey 1px solid;
+}

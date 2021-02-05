@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+.contactCont {
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: grey 1px solid;
+}
+
+.words {
+    font-weight: bold;
+}
