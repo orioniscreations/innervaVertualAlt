@@ -5,9 +5,13 @@ h1 {
 .contactCont {
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: grey 1px solid;
 }
 
 .words {
     font-weight: bold;
+    
+}
+
+footer {
+    border-top: solid 1px grey;
 }
