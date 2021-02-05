@@ -584,6 +584,7 @@ a.button1:hover {
 .buttonCent {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 /*  */
