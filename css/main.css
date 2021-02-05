@@ -1,6 +1,6 @@
 body {
-  color: #8f8f8f;
-  background: white;
+  color: white;
+  /*background: white;*/
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
@@ -172,7 +172,7 @@ p {
 }
 
 .content {
-  padding: 50px 2% 250px;
+  padding: 50px 2% 100px;
 }
 
 .hero {
@@ -484,7 +484,8 @@ img {
 }
 
 body {
-  background: #f0f0f0;
+  /*background: #f0f0f0;*/
+  background-image: linear-gradient(to top, #004fc4, #93bcfa ,#004fc4);
   font-size: 17px;
   line-height: 1.4;
   font-family: 'Jaldi', sans-serif;
