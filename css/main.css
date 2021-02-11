@@ -575,6 +575,7 @@ a.button1 {
   text-align: center;
   transition: all 0.2s;
   text-align: center;
+  color: white;
 }
 
 a.button1:hover {
