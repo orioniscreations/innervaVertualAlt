@@ -12,7 +12,7 @@ body {
   max-height: 70px;
   z-index: 999;
   width: 100%;
-  padding-top: 17px;
+  padding-top: 7px;
   background: none;
   overflow: hidden;
   -webkit-transition: all 0.3s;
@@ -507,6 +507,15 @@ body {
 
 /* partners */
 
+.partnerCont {
+  background-color: darkgray;
+}
+
+@media (min-width: 438px) {
+  .partnerCont {
+    align-content: center;
+  }
+}
 
 .partnerImg {
   max-width: 200px;
