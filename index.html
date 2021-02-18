@@ -24,6 +24,57 @@
   <title>Innerva Virtual</title>
   <link rel="shortcut icon" type="image/jpg"
     href="https://innervavirtual.com/Spandrel/innervaVertualAlt/img/favicon.ico">
+  <style>
+    .dropbtn {
+      background-color: #363636;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .dropbtn:hover,
+    .dropbtn:focus {
+      background-color: #363636;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      background-color: grey;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      padding: 4px;
+    }
+
+    .dropdown-content button {
+      background-color: #363636;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      margin: 4px;
+
+    }
+
+    .dropdown button:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .show {
+      display: block;
+      max-width: 160px;
+
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <body>
@@ -64,14 +115,35 @@
     <span><img src="https://innervavirtual.com/Spandrel/innervaVertualAlt/img/innervaLogo.png" alt="Innerva Virtual"
         class="topLogo"></span>
 
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Language</button>
+      <div id="myDropdown" class="dropdown-content">
+        <button id="en-btn">EN</button>
+        <button id="fr-btn">FR</button>
+      </div>
+    </div>
+    <script>
+      /* When the user clicks on the button, 
+       toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
 
-    <!--<div class="buttonCent">
-      <a href="https://innervavirtual.com/Spandrel/innervaVertualAlt/index.html" class="button1">Home</a>
-      <a href="https://innervavirtual.com/Spandrel/innervaVertualAlt/aboutus.html" class="button1">About Us</a>
-      <a href="https://innervavirtual.com/Spandrel/innervaVertualAlt/blog.html" class="button1">News</a>
-      <a href="https://innervavirtual.com/Spandrel/innervaVertualAlt/contactus.html" class="button1">Contact Us</a>
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
 
-    </div>-->
     <h2 style="margin-top: 6%">Virtual Reality Software
       for Healthy Aging</h2>
 
@@ -180,6 +252,8 @@
 
     </footer>
   </div>
+  <script src="https://innervavirtual.com/Spandrel/innervaVertualAlt/js/dom-i18n.js"></script>
+  <script src="https://innervavirtual.com/Spandrel/innervaVertualAlt/js/translation-tools.js"></script>
 </body>
 
 </html>

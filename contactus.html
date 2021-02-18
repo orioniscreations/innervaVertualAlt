@@ -68,6 +68,34 @@
       <a href="https://innervavirtual.com/Spandrel/innervaVertualAlt/contactus.html" class="button1">Contact Us</a>
 
     </div>-->
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Language</button>
+      <div id="myDropdown" class="dropdown-content">
+        <button id="en-btn">EN</button>
+        <button id="fr-btn">FR</button>
+      </div>
+    </div>
+    <script>
+      /* When the user clicks on the button, 
+       toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
 
     <h2 style="margin-top: 6%">Virtual Reality Software
       for Healthy Aging</h2>
@@ -141,6 +169,8 @@
       </div>
 
     </footer>
+    <script src="https://innervavirtual.com/Spandrel/innervaVertualAlt/js/dom-i18n.js"></script>
+    <script src="https://innervavirtual.com/Spandrel/innervaVertualAlt/js/translation-tools.js"></script>
 </body>
 
 </html>
